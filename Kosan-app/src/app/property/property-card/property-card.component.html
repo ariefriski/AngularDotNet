@@ -1,9 +1,18 @@
-<div class="row">
-  <div class="col-3">
-    <div class="card">
-      <p>{{ Property.Id }}</p>
-      <p>{{ Property.Name }}</p>
-      <p>{{ Property.Price }}</p>
-    </div>
+<div class="card">
+  <div class="card-img-wrapper">
+    <img class="card-img-top" src="assets/images/house1.jpg" alt="" />
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="far fa-edit"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <i class="far fa-address-book"></i>
+        </button>
+      </li>
+    </ul>
   </div>
+  <p>{{ property.Id }}</p>
+  <p>{{ property.Name }}</p>
+  <p>{{ property.Price }}</p>
 </div>

@@ -7,7 +7,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PropertyListComponent } from './property/property-list/property-list.component';
 
 @NgModule({
-  declarations: [AppComponent, PropertyCardComponent, NavbarComponent, PropertyListComponent],
+  declarations: [
+    AppComponent,
+    PropertyCardComponent,
+    NavbarComponent,
+    PropertyListComponent,
+  ],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
