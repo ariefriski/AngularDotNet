@@ -1,32 +1,49 @@
 [
   {
     "Id": 1,
+    "SellRent": 1,
     "Name": "Arief House",
     "Type": "House",
-    "Price": 1250
+    "Price": 1250,
+    "Image": "house-1"
   },
   {
     "Id": 2,
+    "SellRent": 2,
     "Name": "Riski House",
     "Type": "House",
-    "Price": 1150
+    "Price": 1150,
+    "Image": "house-2"
   },
   {
     "Id": 3,
+    "SellRent": 1,
     "Name": "Indra House",
     "Type": "House",
-    "Price": 3250
+    "Price": 3250,
+    "Image": "house-3"
   },
   {
     "Id": 4,
+    "SellRent": 1,
     "Name": "Pratama House",
     "Type": "House",
-    "Price": 4250
+    "Price": 4250,
+    "Image": "house-4"
   },
   {
     "Id": 5,
+    "SellRent": 1,
     "Name": "Nadya House",
     "Type": "House",
-    "Price": 5250
+    "Price": 5250,
+    "Image": "house-5"
+  },
+  {
+    "Id": 6,
+    "SellRent": 1,
+    "Name": "Apriliani House",
+    "Type": "House",
+    "Price": 6250
   }
 ]
